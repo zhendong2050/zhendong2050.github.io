@@ -1,0 +1,51 @@
+body {
+	background-color: #EBECF0;
+	font-size:14px;
+}
+
+#container {
+	width:750px;
+	margin:0 auto;
+    line-height: 1.666666;
+}
+
+.label{
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+ul {
+	list-style-type:square;
+}
+
+.post{
+			
+		// box-shadow: 10px 5px 10px  grey;
+		background-color: white;
+		// border-radius: 25px;
+		width:100%;
+		// margin-bottom:20px;
+		padding:8px;
+
+		text-align:justify;
+
+}
+
+.confInfo{
+		font-size:14px;
+}
+
+
+
+#name{
+		font-size:30px;
+		font-weight:bold;
+		margin:0;
+	}
+	
+
+#tail{
+	text-align:center;
+}
+
