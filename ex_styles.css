@@ -1,16 +1,16 @@
 body {
 	background-color: #EBECF0;
-	font-size:14px;
+	/* font-size:14px; */
 }
 
 #container {
-	width:0 auto;
+	width:750px;
 	margin:0 auto;
     line-height: 1.666666;
 }
 
 .label{
-	font-size:18px;
+	/*font-size:18px;*/
 	font-weight:bold;
 }
 
@@ -33,7 +33,7 @@ ul {
 }
 
 .confInfo{
-		font-size:14px;
+		/*font-size:14px;*/
 }
 
 
