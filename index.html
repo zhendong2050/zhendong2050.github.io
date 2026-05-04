@@ -1,435 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="keywords" content="Zhen Dong, Dong Zhen, 董震, software engineering, software testing, program analysis, nus, Fudan">
-	<title>Dr. DONG Zhen - Fudan University， China </title>
-	<link rel="stylesheet" type="text/css"  href="ex_styles.css">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Zhen Dong | Fudan University</title>
+  <meta name="description" content="Academic homepage of Dr. Zhen Dong, Associate Professor at Fudan University." />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --line: #e5e7eb;
+      --link: #1d4ed8;
+      --max: 920px;
+    }
 
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Times New Roman", Times, Georgia, serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 18px;
+    }
+
+    header {
+      padding: 28px 0 18px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .contact {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    nav {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 0.95rem;
+    }
+
+    main {
+      padding: 18px 0 30px;
+    }
+
+    section {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 10px;
+      color: var(--text);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 0 0 8px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      padding: 18px 0 28px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 1.65rem; }
+      .subtitle { font-size: 1rem; }
+      body { line-height: 1.6; }
+    }
+  </style>
 </head>
 <body>
-<div id="container">
-		<div class="post" id="basic">
-			<img style="width: 120px; height: auto; float:right;margin:5px" src="res/zhen_dong.jpg"> 	
-			<p id="name">Dr. DONG Zhen </P>
-			<p> Associate Professor <br>
-                            Fudan University <br>
-			    2005 Songhu Road, Shanghai, China <br>
-			    zhendong@fudan.edu.cn
-			</p>
-			
-		</div>
+  <header>
+    <div class="container">
+      <h1>Dr. Zhen Dong</h1>
+      <div class="subtitle">Associate Professor, Fudan University</div>
+      <div class="contact">
+        2005 Songhu Road, Shanghai, China ·
+        <a href="mailto:zhendong@fudan.edu.cn">zhendong@fudan.edu.cn</a>
+      </div>
+      <nav>
+        <a href="#bio">Bio</a>
+        <a href="#news">News</a>
+        <a href="#publications">Selected Publications</a>
+        <a href="#services">Academic Services</a>
+      </nav>
+    </div>
+  </header>
 
-		<div class="post" id="about">
+  <main class="container">
+    <section id="bio">
+      <h2>Bio</h2>
+      <p>
+        Zhen Dong is an Associate Professor at Fudan University, China.
+        Previously, he was a Senior Research Fellow at the School of Computing,
+        National University of Singapore. He received his PhD in Computer Science
+        from Heidelberg University, Germany.
+      </p>
+      <p>
+        His research focuses on software reliability and security, with an emphasis
+        on mobile computing. He serves on the Board of Distinguished Reviewers of
+        ACM Transactions on Software Engineering and Methodology.
+      </p>
+    </section>
 
-			<p class="label">Bio </p>
-			<p> 
-			
-			Zhen Dong is an Associate Professor at Fudan University, China. Previously, he was a senior research fellow at school of computing science of the National University of Singapore. Zhen completed his PhD in computer science from Heidelberg University in Germany. His research is focused on the development of techniques and tools for improving software reliability and security, particularly in the area of mobile computing. He is currently serving on the Board of Distinguished Reviewers of ACM Transactions on Software Engineering and Methodology. His research won the ACM Distinguished Paper Award at ICSE'20 and the Best Paper Award at AsiaCCS'21.
+    <section id="news">
+      <h2>News</h2>
+      <ul>
+        <li><span class="meta">Sep 2025:</span> Invited to serve on the Program Committee of ISSTA 2026.</li>
+        <li><span class="meta">Jul 2025:</span> Serving as Associate Editor of the Automated Software Engineering journal.</li>
+        <li><span class="meta">Jul 2025:</span> Received the ACM SIGSOFT Distinguished Paper Award at ISSTA 2025.</li>
+        <li><span class="meta">Feb 2025:</span> Invited to serve on the Program Committee of ASE 2025.</li>
+        <li><span class="meta">Dec 2024:</span> Invited to serve on the Program Committee of ICSE 2026.</li>
+      </ul>
+    </section>
 
-		</p>
-		</div>
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>
+          <strong>NetPanic: The Attack Surface You Can’t Syscall.</strong><br />
+          Tianshuo Han, Zong Cao, <strong>Zhen Dong</strong>, Xiapu Luo, Zhenyu Song, Jian Liu.<br />
+          <span class="meta">IEEE Symposium on Security and Privacy (S&amp;P), 2026.</span>
+        </li>
+        <li>
+          <strong>RESTOR: Automated Test Oracle Generation for RESTful APIs via Reinforcement Learning.</strong><br />
+          Xun Zhou, <strong>Zhen Dong</strong>, et al.<br />
+          <span class="meta">ISSTA, 2026.</span>
+        </li>
+        <li>
+          <strong>LLM Based Input Space Partitioning Testing for Library APIs.</strong><br />
+          Jiageng Li, <strong>Zhen Dong</strong>, et al.<br />
+          <span class="meta">ICSE, 2025.</span>
+        </li>
+        <li>
+          <strong>Inferring PID Parameter Specification for Flight Control Program by Coordinate Search.</strong><br />
+          Siao Wang, <strong>Zhen Dong</strong>, et al.<br />
+          <span class="meta">ISSTA, 2025. ACM SIGSOFT Distinguished Paper Award.</span>
+        </li>
+        <li>
+          <strong>Time-travel Testing of Android Apps.</strong><br />
+          <strong>Zhen Dong</strong>, Marcel Böhme, Lucia Cojocaru, Abhik Roychoudhury.<br />
+          <span class="meta">ICSE, 2020. ACM SIGSOFT Distinguished Paper Award.</span>
+        </li>
+        <li>
+          <strong>Localizing Vulnerabilities Statistically From One Exploit.</strong><br />
+          Shiqi Shen, Aashish Kolluri, <strong>Zhen Dong</strong>, Prateek Saxena, Abhik Roychoudhury.<br />
+          <span class="meta">ASIACCS, 2021. Best Paper Award.</span>
+        </li>
+      </ul>
+    </section>
 
-		<div class="post" id="news">
-			<p class="label"> News </p>
-			<ul>
-		<li> 
-			        <span class="title"> Sept.'29, 2025: </span>  
- 	          		Invited to serve on the Program Committee of ISSTA'26!
-				</li>
-		<li> 
-			        <span class="title"> July.'31, 2025: </span>  
- 	          		Serving as Associate Editor of the Automated SE journal!
-				</li>
-		<li> 
-			        <span class="title"> Sept.'29, 2025: </span>  
- 	          		Invited to serve on the Program Committee of ISSTA'26!
-				</li>
-		<li> 
-					<span class="title"> Jul'25: </span>  
-					Received the ACM Distinguished Paper Award at ISSTA 25!
-				</li>
-		<li> 
-			        <span class="title"> Feb.'18, 2025: </span>  
- 	          		Invited to serve on the Program Committee of ASE'25!
-				</li>
-		<li> 
-			        <span class="title"> Dec.'18, 2024: </span>  
- 	          		Invited to serve on the Program Committee of ICSE'26!
-				</li>
-		<li> 
-			        <span class="title"> June.'2, 2024: </span>  
- 	          		Invited to serve on the Program Committee of FSE'25!
-				</li>
-		<li> 
-			        <span class="title"> Dec.'27, 2023: </span>  
- 	          		Invited to serve on the Program Committee of ISSTA'24!
-				</li>
-		<li> 
-			        <span class="title"> Nov.'28: </span>  
- 	          		Invited to serve on the Program Committee of ASE'24!
-				</li>
-		<li> 
-			        <span class="title"> Nov.'10: </span>  
- 	          		Invited to serve on the Program Committee of ICSE'25!
-				</li>
-		<li> 
-			        <span class="title"> Nov.'21: </span>  
- 	          		Invited to serve on the Program Committee of ASE'23!
-				</li>
-		<li> 
-			        <span class="title"> Oct.'11: </span>  
- 	          		Received an ASE'22 Distinguished Reviewer Award!
-				</li>
-		<li> 
-			        <span class="title"> Sept.'14: </span>  
- 	          			Invited to serve on the program committee of ICSE 2024!
-				</li>
-               
-                <li> 
-			        <span class="title"> Sept.'25: </span>  
- 	          		Invited to serve on the Program Committee of ASE'22.
-				</li>
-				 
-				
-			</ul>
-		</div>
+    <section id="services">
+      <h2>Academic Services</h2>
+      <ul>
+        <li>Program Committee: ICSE 2024, ASE 2022, MobileSoft 2022, ISSTA 2021, SCAM 2021.</li>
+        <li>Co-Chair: Fast Abstract Track, PRDC 2022.</li>
+        <li>Reviewer: IEEE TSE, ACM TOSEM, IEEE TDSC, ACM TECS, Journal of Systems and Software.</li>
+      </ul>
+    </section>
+  </main>
 
-		<div class="post" id="publication">
-			<p class="label"> Selected Publications</p>
-			<ul>
-		<li>
-                 <p class="title"> [<b> S&P'26 </b>] <br>
-                    <a href="res/SP26.pdf"> NetPanic: The Attack Surface You Can’t Syscall </a> </p>
-                 <p class="confInfo">
-	        Tianshuo Han, Zong Cao, <u>Zhen Dong</u>, Xiapu Luo, Zhenyu Song, Jian Liu <br>
-	        47th IEEE Symposium on Security and Privacy（S&P）2026.
-                 </p>
-             </li>
-		<li>
-                 <p class="title"> [<b> ISSTA'26 </b>] <br>
-                    <a href=""> RESTOR: Automated Test Oracle Generation for RESTful APIs via  Reinforcement Learning </a> </p>
-                 <p class="confInfo">
-	        Xun Zhou, <u>Zhen Dong</u>, Mingyu Ren, Qiang Li, JunJie, Sifan Wang, Xiaolong Yu, Chaofeng Sha, Xin Peng <br>
-	        35th SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026.
-                 </p>
-             </li>
-		<li>
-                 <p class="title"> [<b> ICSE'25 </b>] <br>
-                    <a href="res/ICSE25.pdf"> LLM Based Input Space Partitioning Testing for Library APIs </a> </p>
-                 <p class="confInfo">
-	        Jiageng Li,<u>Zhen Dong</u>†,Chong Wang,Haozhen You,Cen Zhang,Yang Liu,Xin Peng (†corresponding author)<br>
-	        47th International Conference on Software Engineering （ICSE） 2025.
-                 </p>
-             </li>
-		<li>
-                 <p class="title"> [<b> ISSTA'25 </b>] <br>
-                    <a href="res/issta25.pdf"> Inferring PID Parameter Specification for Flight  Control Program by Coordinate Search </a> </p>
-                 <p class="confInfo">
-	        Siao Wang, <u>Zhen Dong</u>†, Hui Li, Liwei Shen, Xin Peng, Dongdong She (†corresponding author) <br>
-	        34th ACM SIGSOFT International Symposium on Software Testing and Analysis （ISSTA） 2025. <br>
-		 <Font color="red"> ACM SIGSOFT Distinguished Paper Award</Font>
-                 </p>
-             </li>
-	     <li>
-                 <p class="title"> [<b> ICPC'25 </b>] <br>
-                    <a href="res/icpc25a.pdf"> Extracting Formal Specifications from Documents Using LLMs for  Test Automation </a> </p>
-                 <p class="confInfo">
-	        Hui Li, <u>Zhen Dong</u>†, Siao Wang, Hui Zhang, Liwei Shen, Xin Peng, Dongdong She (†corresponding author) <br>
-	        33rd IEEE/ACM International Conference on Program Comprehension (ICPC) 2025.
-                 </p>
-             </li>
-		<li>
-                 <p class="title"> [<b> ICPC'25 </b>] <br>
-                    <a href="res/icpc25b.pdf"> Effectively Modeling UI Transition Graphs for Android Apps via  Reinforcement Learning </a> </p>
-                 <p class="confInfo">
-	        Wunan Guo, <u>Zhen Dong</u>,Liwei Shen,Daihong Zhou, Bin Hu, Chen Zhang, Hai Xue<br>
-	         33rd IEEE/ACM International Conference on Program Comprehension (ICPC) 2025.
-                 </p>
-             </li>
-		<li>
-                 <p class="title"> [<b> ISSTA'24 </b>] <br>
-                    <a href="res/ISSTA24.pdf"> Reproducing Timing-dependent GUI Flaky Tests in Android Apps  via A Single Event Delay </a> </p>
-                 <p class="confInfo">
-	        Xiaobao Cai, <u>Zhen Dong</u>†, Yongjiang Wang, Abhishek Tiwari, Xin Pen (†corresponding author) <br>
-	         International Symposium on Software Testing and Analysis (ISSTA) 2024.
-                 </p>
-             </li>
-		<li>
-                 <p class="title"> [<b> FM'24 </b>] <br>
-                    <a href="res/FM24.pdf"> Automated Repair of Information Flow Security in Android Implicit Inter-App Communication </a> </p>
-                 <p class="confInfo">
-	        Abhishek Tiwari, Jyoti Prakash, <u>Zhen Dong</u> and Carlo A. Furia <br>
-	         26th International Symposium on Formal Methods (FM) 2024.
-                 </p>
-             </li>
-		<li>
-                 <p class="title"> [<b> IJCAI'24 </b>] <br>
-                    <a href="res/IJCAI.pdf"> Synthesizing Programmatic Policy for Generalization within Task Domain </a> </p>
-                 <p class="confInfo">
-	        Tianyi Wu , Liwei Shen , <u>Zhen Dong</u>†, Xin Peng and Wenyun Zhao (†corresponding author) <br>
-	         33rd International Joint Conference on Artificial Intelligence (IJCAI) 2024.
-                 </p>
-             </li>
-	       <li>
-                 <p class="title"> [<b> ICSE'24 </b>] <br>
-                    <a href="res/ICSE24.pdf"> Trace-based Multi-Dimensional Root Cause Localization of Performance Issues in Microservice Systems </a> </p>
-                 <p class="confInfo">
-	        Chenxi Zhang, <u>Zhen Dong</u>†, Xin Peng, Bicheng Zhang, Miao Chen  (†corresponding author) <br>
-	         46th International Conference on Software Engineering (ICSE) 2024.
-                 </p>
-             </li>
-	       <li>
-                 <p class="title"> [<b> Neurips'23 </b>] <br>
-                    <a href="res/NeurIPS2023.pdf"> Enhancing Robotic Program Synthesis Through Environmental Context </a> </p>
-                 <p class="confInfo">
-	        Tianyi Chen, Qidi Wang, <u>Zhen Dong</u>†, Liwei Shen, Xin Peng  (†corresponding author) <br>
-	         37th Conference on Neural Information Processing Systems (Neurips) 2023.
-                 </p>
-             </li>
-
-	      <li>
-                 <p class="title"> [<b> ASE'23 </b>] <br>
-                    <a href="res/ASE23.pdf"> Dynamic Graph Neural Networks-based Alert Link Prediction for Online Service Systems </a> </p>
-                 <p class="confInfo">
-	        Yiru Chen, Chenxi Zhang, <u>Zhen Dong</u>†, Dingyu Yang, Xin Peng, Jiayu Ou, Hong Yang,  Zheshun Wu, Xiaoun Qu, Wei Li  (†corresponding author) <br>
-	         38th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2023.
-                 </p>
-             </li>
-	      <li>
-                 <p class="title"> [<b> ICSME'23 </b>] <br>
-                    <a href="res/ICSME23.pdf"> An Empirical Study on Fault Diagnosis  in Robotic Systems </a> </p>
-                 <p class="confInfo">
-	        Xuezhi Song, Yi Li, <u>Zhen Dong</u>†, Shuning Liu, Junming Cao and Xin Peng (†corresponding author) <br>
-	         39th IEEE International Conference on Software Maintenance and Evolution （ICSME） 2023.
-                 </p>
-             </li>
-	      <li>
-                 <p class="title"> [<b> ISSTA'22 </b>] <br>
-                    <a href="res/ISSTA22.pdf"> Detecting and Fixing Data Loss Issues in Android Apps </a> </p>
-                 <p class="confInfo">
-	         Wunan Guo, <u> Zhen Dong </u>†, Liwei Shen, Wei Tian, Ting Su, Xin Peng (†corresponding author) <br>
-	         31th ACM SIGSOFT International Symposium on Software Testing and Analysis （ISSTA） 2022.
-                 </p>
-             </li>
-	     <li>
-                 <p class="title"> [<b> ICSE'22 </b>] <br>
-                 <a href="https://arxiv.org/pdf/2109.02312.pdf">  Linear-time Temporal Logic guided Greybox Fuzzing </a>  </p>
-                 <p class="confInfo">
-	         Ruijie Meng*, <u> Zhen Dong </u>*†, Jialin Li, Ivan Beschastnikh, Abhik Roychoudhury (*joint first author,†corresponding author) <br>
-	         IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022.
-                 </p>
-             </li>
-            <li>
-                 <p class="title"> [<b> ESEC/FSE'21</b>] <br>
-                 <a href="res/FSE21.pdf"> Flaky Test Detection in Android via Event Order Exploration </a> </p>
-                 <p class="confInfo">
-                 <u>Zhen Dong</u>, Abhishek Tiwari, Xiao Liang Yu, Abhik Roychoudhury <br>
-                 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering  2021. <br>
-	         [<a href="https://www.youtube.com/watch?v=PILpLkuxBr8"> video </a>]
-                 </p>
-             </li>
-            <li>
-                 <p class="title"> [<b> ISSTA'21</b>]
-                 <br><a href="res/ISSTA21.pdf">  Understanding and Finding System Setting-Related Defects in Android Apps </a>  </p>
-                 <p class="confInfo">
-                 Jingling Sun, Ting Su, Junxin Li, <u>Zhen Dong</u>, Geguang Pu, Tao Xie, Zhendong Su <br>
-                 30th ACM SIGSOFT International Symposium on Software Testing and Analysis 2021.
-                 </p>
-             </li>
-
-            <li>
-                <p class="title"> [<b> ASIACCS'21</b>] <br>
-                <a href="res/AsiaCCS21.pdf"> Localizing Vulnerabilities Statistically From One Exploit </a></p>
-                <p class="confInfo">
-                Shiqi Shen, Aashish Kolluri, <u>Zhen Dong</u>, Prateek Saxena, Abhik Roychoudhury <br>
-                16th ACM ASIA Conference on Computer and Communications Security (ASIACCS) 2021. <br>
-                <Font color="red"> Best Paper Award (1/370) </Font>
-                </p>
-            </li>
-	     <li>
-		     <p class="title"> [<b>ICSE'20</b>]  <br><a href="res/time-travel-testing-21-01-2020.pdf"> Time-travel Testing of Android Apps </a>  </p>
-					<p class="confInfo">
-                      <u>Zhen Dong</u>, Marcel Böhme, Lucia Cojocaru, Abhik Roychoudhury <br>
-		      42th International Conference on Automated Software Engineering (ICSE) 2020. <br>
-              Our artifact is Available and Rusable <a href="https://github.com/DroidTest/TimeMachine">https://github.com/DroidTest/TimeMachine<img width="20px" height="20px" src="res/green.jpg"><img width="20px" height="20px" src="res/red.jpg"></a> <br>
-		     <Font color="red"> ACM SIGSOFT Distinguished Paper Award</Font>
-					</p>
-
- 				
-              </li>
-            
-                <li>
-					<p class="title"> [<b>ChinaSoft'20</b>] <br> <a href="res/chinasoft2020.pdf">TimeMachine: Time-travel Testing of Android Apps</a></p>
-					<p class="confInfo">
-                    <u>Zhen Dong</u>, Marcel Böhme, Lucia Cojocaru, Abhik Roychoudhury <br>
-                    National Software Application Conference 2020, China (ProtoType Track). <br>
-                    <Font color="red"> Outstanding Artifact Award </Font>
-					</p>
-
- 				
-              </li>
-
-            <li>
-					<p class="title"> [<b>ASE'18</b>] <br> <a href="res/ase18.pdf">Android Testing via Synthetic Symbolic Execution</a></p>
-					<p class="confInfo">
-                     Xiang Gao, Shin Hwei Tan, <u>Zhen Dong</u>, Abhik Roychoudhury <br>
-                     ACM/IEEE International Conference on Automated Software Engineering (ASE) 2018.
-					</p>
-
- 				
-              </li>
-
-              <li>
-					<p class="title"> [<b>ICSE'18</b>] <br> <a href="res/ICSE18-droix.pdf">Repairing Crashes in Android Apps</a></p>
-					<p class="confInfo">
-                    Shin Hwei Tan, <u>Zhen Dong</u>, Xiang Gao, Abhik Roychoudhury <br>
-                    ACM/IEEE 40th International Conference on Software Engineering (ICSE) 2018.
-					</p>
-
- 				
-                </li>
-
-				<li>
-					<p class="title"> [<b>SCAM'17</b>] <br> <a href="res/scam17.pdf">Does the Choice of Configuration Framework Matter for Developers?</a></p>
-					<p class="confInfo">
-					Mohammed Sayagh, <u>Zhen Dong</u>, Artur Andrzejak, and Bram Adams <br>
-					17th IEEE International Working Conference on Source Code Analysis and Manipulation,  September 17-18, 2017, Shanghai, China.
-					</p>
-
- 				
-                </li>
-				<li>
-					<p class="title">[<b>Dissertation</b>] <br>
-					<a href="res/ZhenDong_PVS_PhDthesis.pdf">Diagnosing Software Configuration Errors via Static Analysis </a>
-					</p>
-					<p class="confInfo">
-					<u>Zhen Dong </u><br>
-					Thesis submitted for the degree of Doctor of Philosophy (PhD), Department of Computer Science, the Ruperto-Carola University of Heidelberg, Germany. PhD Defense on Jan. 25, 2017.
-					</p>
-				</li>
-
-				<li>
-					<p class="title">[<b>ISSRE'16</b>] <br>
-					<a href="res/ORPLocator_ISSRE_2016.pdf">ORPLocator: Identifying Reading Points of Configuration Options via Static Analysis </a>
-					</p>
-					<p class="confInfo">
-					<u>Zhen Dong</u>, Artur Andrzejak, David Lo, and Diego Elias Costa <br>
-					  2016 IEEE 27th International Symposium on Software Reliability Engineering, Ottawa, Canada, 23-27 October.
-					</p>
-				</li>
-				<li>
-					<p class="title">[<b>ICSME'15</b>] <br>
-					<a href="res/Pinpointing_of_Configuration-final.pdf">Practical and Accurate Pinpointing of Conﬁguration Errors Using Static Analysis </a>
-					</p>
-					<p class="confInfo">
-					<u>Zhen Dong</u>, Artur Andrzejak, and Kun Shao<br>
-					31st IEEE International Conference on Software Maintenance and Evolution, Bremen, Germany, Sep 29 - Oct 1, 2015.
-					</p>
-				</li>
-				
-				<li>
-					<p class="title">[<b>IWPD'13</b>] <br>
-					<a href="res/IWPD_2013_-_Diagnosis_Misconfigurations_-_Dong_Ghanavati_Andrzejak.pdf">Automated Diagnosis of Software Misconfigurations Based on Static Analysis </a>
-					</p>
-					<p class="confInfo">
-					<u>Zhen Dong</u>, Mohammadreza Ghanavati, and Artur Andrzejak<br>
-					4th International Workshop on Program Debugging, at IEEE ISSRE, Pasadena, CA, November 4-7, 2013.
-					</p>
-				</li>
-				
-				<li>
-					<p class="title">[<b>IWPD'13</b>] <br>
-					<a href="res/IWPD_2013_-_Finding_failure-inducing_changes_Ghanavati_Andrzejak_Dong.pdf">Scalable Isolation of Failure-Inducing Changes via Version Comparison </a>
-					</p>
-					<p class="confInfo">
-					 Mohammadreza Ghanavati, and Artur Andrzejak, and <u>Zhen Dong</u><br>
-                     4th International Workshop on Program Debugging, at IEEE ISSRE, Pasadena, CA, November 4-7, 2013. <br>
-                    <Font color="red"> Best Paper Award </Font>
-					</p>
-				</li>
-
-			</ul>
-
-		</div>
-		<div class="post" id="service">
-		    <p class="label"> Academia Services </p>
-	      <ul>
-               
-		      <p class="title"> <b> Organisation </b> </p>
-				
-		<li>
-                    Co-Chair of Fast Abstract Track on International Symposium on Dependable Computing (PRDC), 2022
-                </li>
-            </ul>
-             <ul>
-               
-		     <p class="title"> <b> Program Committee Member </b> </p>
-			
-		<li>
-                     IEEE/ACM International Conference on Software Engineering (ICSE), 2024
-                </li>
-		<li>
-                     IEEE/ACM International Conference on Automated Software Engineering (ASE), 2022
-                </li>
-		<li>
-                   IEEE/ACM International Conference on Mobile Software Engineering and Systems (MobileSoft) 2022
-                </li>
-                <li>
-                    ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA), 2021
-                </li>
-                <li>
-                    IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM), 2021 
-                </li>
-                
-            </ul>
-	    <ul>
-	       <p class="title"> <b> Journal Reviewer </b> </p>
-				
-		<li>
-                    IEEE Transactions on Software Engineering: 2021, 2022 
-                </li>
-                <li>
-                    ACM Transactions on Software Engineering and Methodology: 2019, 2020, 2021, 2022 
-                </li>
-                <li>
-                    IEEE Transactions on Dependable and Secure Computing: 2019, 2020, 2021, 2022
-                </li>
-                <li>
-                  ACM Transactions on Embedded Computing Systems: 2021 
-                </li>
-		<li>
-                  Journal of Systems and Software: 2018, 2019, 2020, 2021, 2022
-                </li>
-            </ul>
-           <!--
-            <ul>
-                <p class="title"> External reviewer </p>
-                <li>
-                    ASE 2020, ICSE 2020
-                </li>
-                <li>
-                    NDSS 2019
-                </li>
-                <li>
-                   FSE 2017, ASE 2017
-                </li>
-                <li>
-                    WoSAR 2016, IWPD 2016
-                </li>
-                <li>
-                    ICAC 2015
-                </li>
-            </ul>
-            -->
-		</div>
-	 
-
-
-</div>	
-
-<p id="tail">updated by Dong Zhen on Sept. 25, 2020</p>
-
+  <footer>
+    <div class="container">
+      Last updated: May 2026
+    </div>
+  </footer>
 </body>
 </html>
